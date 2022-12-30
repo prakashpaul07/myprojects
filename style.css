@@ -1,0 +1,21 @@
+body {
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.heart {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+}
+#gd{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 17%;
+}
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
